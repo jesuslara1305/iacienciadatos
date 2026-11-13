@@ -1,0 +1,81 @@
+{
+  "fecha_utc": "2026-11-13T18:44:54.450216+00:00",
+  "ruta_entrada": "reportes_sinteticos.csv",
+  "fuente": "dataset proporcionado / ejemplos",
+  "ejemplo_simulado": true,
+  "filas_originales": 24,
+  "filas_analizadas": 24,
+  "filas_excluidas_o_duplicadas": 0,
+  "sentimientos": {
+    "negativo": 10,
+    "neutral": 7,
+    "positivo": 7
+  },
+  "entidades_por_tipo": {
+    "ARCHIVO": 8,
+    "CODIGO_ERROR": 6,
+    "COMPONENTE": 25,
+    "SISTEMA_OPERATIVO": 8,
+    "TECNOLOGIA": 12,
+    "VERSION": 9
+  },
+  "tfidf_dimensiones": [
+    24,
+    350
+  ],
+  "tfidf_top10": [
+    {
+      "termino": "python",
+      "peso": 0.046725
+    },
+    {
+      "termino": "editor",
+      "peso": 0.039237
+    },
+    {
+      "termino": "issue",
+      "peso": 0.035137
+    },
+    {
+      "termino": "extension",
+      "peso": 0.031547
+    },
+    {
+      "termino": "error",
+      "peso": 0.030307
+    },
+    {
+      "termino": "linux",
+      "peso": 0.029493
+    },
+    {
+      "termino": "fixed",
+      "peso": 0.028926
+    },
+    {
+      "termino": "fails",
+      "peso": 0.027421
+    },
+    {
+      "termino": "crashes",
+      "peso": 0.026837
+    },
+    {
+      "termino": "terminal",
+      "peso": 0.026063
+    }
+  ],
+  "metodos": {
+    "representacion": "TF-IDF unigramas/bigramas",
+    "sentimiento": "lexico tecnico y negacion limitada, heuristico",
+    "entidades": "regex y diccionario técnico",
+    "generacion": "plantillas deterministas"
+  },
+  "limitaciones": [
+    "Tono no equivale a severidad",
+    "Heurísticas no validadas con etiquetas humanas",
+    "NER depende de patrones conocidos",
+    "Reportes de GitHub no tienen correspondencia individual con métricas de NASA PROMISE",
+    "Muestra de issues no necesariamente representativa"
+  ]
+}

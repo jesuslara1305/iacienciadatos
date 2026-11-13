@@ -1,0 +1,23 @@
+﻿variable_en_minusculas,presente_en_datasets,datasets,nombres_originales
+b,5,"CM1, JM1, KC1, KC2, PC1","B, b"
+branchcount,5,"CM1, JM1, KC1, KC2, PC1",branchCount
+d,5,"CM1, JM1, KC1, KC2, PC1","D, d"
+e,5,"CM1, JM1, KC1, KC2, PC1","E, e"
+ev(g),5,"CM1, JM1, KC1, KC2, PC1",ev(g)
+i,5,"CM1, JM1, KC1, KC2, PC1","I, i"
+iv(g),5,"CM1, JM1, KC1, KC2, PC1","iv(G), iv(g)"
+l,5,"CM1, JM1, KC1, KC2, PC1","L, l"
+loblank,5,"CM1, JM1, KC1, KC2, PC1",lOBlank
+loc,5,"CM1, JM1, KC1, KC2, PC1",loc
+loccodeandcomment,4,"CM1, JM1, KC1, PC1",locCodeAndComment
+locode,5,"CM1, JM1, KC1, KC2, PC1",lOCode
+locodeandcomment,1,KC2,lOCodeAndComment
+locomment,5,"CM1, JM1, KC1, KC2, PC1",lOComment
+n,5,"CM1, JM1, KC1, KC2, PC1","N, n"
+t,5,"CM1, JM1, KC1, KC2, PC1","T, t"
+total_op,5,"CM1, JM1, KC1, KC2, PC1",total_Op
+total_opnd,5,"CM1, JM1, KC1, KC2, PC1",total_Opnd
+uniq_op,5,"CM1, JM1, KC1, KC2, PC1",uniq_Op
+uniq_opnd,5,"CM1, JM1, KC1, KC2, PC1",uniq_Opnd
+v,5,"CM1, JM1, KC1, KC2, PC1","V, v"
+v(g),5,"CM1, JM1, KC1, KC2, PC1",v(g)

@@ -1,0 +1,65 @@
+{
+  "bloques": [
+    {
+      "dato": {
+        "descripcion": "Cadena local de trazabilidad para Proyecto IACD",
+        "tipo": "genesis"
+      },
+      "fecha_utc": "2026-11-13T19:00:40+00:00",
+      "hash_anterior": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash_bloque": "92cfafc3484c91f51b372ba58ea8bb4d88ece3ff01754ab60b3cea71d8a8b7b9",
+      "hash_dato": "4327a8d2a5e7eaea524af5ad5a20887a0f81d1c8e67ab600c4dc03dd2f397f1d",
+      "indice": 0
+    },
+    {
+      "dato": {
+        "cantidad_predicciones": 5,
+        "columnas": [
+          "prediccion",
+          "interpretacion",
+          "probabilidad_defecto_no_calibrada"
+        ],
+        "modelo_archivo": "modelo_defectos.joblib",
+        "origen_archivo": "predicciones_nuevas.csv",
+        "predicciones": [
+          {
+            "interpretacion": "Posible defecto",
+            "prediccion": "1",
+            "probabilidad_defecto_no_calibrada": "0.6329160822632321"
+          },
+          {
+            "interpretacion": "Sin defecto previsto",
+            "prediccion": "0",
+            "probabilidad_defecto_no_calibrada": "0.40894845589457124"
+          },
+          {
+            "interpretacion": "Posible defecto",
+            "prediccion": "1",
+            "probabilidad_defecto_no_calibrada": "0.8414815685917072"
+          },
+          {
+            "interpretacion": "Sin defecto previsto",
+            "prediccion": "0",
+            "probabilidad_defecto_no_calibrada": "0.3230590075485204"
+          },
+          {
+            "interpretacion": "Sin defecto previsto",
+            "prediccion": "0",
+            "probabilidad_defecto_no_calibrada": "0.4206708474668956"
+          }
+        ],
+        "sha256_archivo": "ac5dec47208a5215ba0472552d9eed61b3ce2c924ae34a002ae401c6a64c1975",
+        "sha256_modelo": "f7f2b320f0d38aa3542b7b288835463958dcd7644d3abbc2f26eb2cc43ded8e8",
+        "tipo": "lote_predicciones_ml",
+        "total_predichos_defectuosos": 2
+      },
+      "fecha_utc": "2026-11-13T19:00:40+00:00",
+      "hash_anterior": "92cfafc3484c91f51b372ba58ea8bb4d88ece3ff01754ab60b3cea71d8a8b7b9",
+      "hash_bloque": "9128919a7ec1ff242837ddd46988903b67fec01764845b73b1620eef5417f82f",
+      "hash_dato": "5f3a34fdb14af19939b6ce23262fb8faa2a21b9250998343cff41e573560b38f",
+      "indice": 1
+    }
+  ],
+  "tipo": "blockchain_academica_local",
+  "version": 1
+}

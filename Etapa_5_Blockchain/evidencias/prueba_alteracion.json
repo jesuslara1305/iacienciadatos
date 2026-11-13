@@ -1,0 +1,9 @@
+{
+  "cadena_original_valida": true,
+  "copia_manipulada": "/mnt/data/Etapa_5_Blockchain/evidencias/cadena_alterada_copia.json",
+  "alteracion_detectada": true,
+  "errores": [
+    "Bloque 1: datos alterados (hash_dato)",
+    "Bloque 1: contenido de bloque modificado"
+  ]
+}

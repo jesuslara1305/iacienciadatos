@@ -1,0 +1,8 @@
+{
+  "resultado": "REGISTRADO",
+  "bloque": 1,
+  "predicciones": 5,
+  "sha256_fuente": "ac5dec47208a5215ba0472552d9eed61b3ce2c924ae34a002ae401c6a64c1975",
+  "hash_bloque": "9128919a7ec1ff242837ddd46988903b67fec01764845b73b1620eef5417f82f",
+  "cadena": "/mnt/data/Etapa_5_Blockchain/datos/cadena.json"
+}

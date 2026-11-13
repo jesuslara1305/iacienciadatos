@@ -1,0 +1,4 @@
+datos_textuales/*.csv
+resultados_reales/
+__pycache__/
+.pytest_cache/

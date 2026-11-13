@@ -1,0 +1,136 @@
+{
+  "modelo_seleccionado": "Regresion logistica",
+  "criterio_seleccion": "Mayor promedio F1 clase defectuoso=1 en CV agrupada de entrenamiento; desempate por Recall",
+  "cv_tipo": "StratifiedGroupKFold(n_splits=3,shuffle=True,random_state=42)",
+  "cv_folds": [
+    {
+      "fold": 1,
+      "filas_entrenamiento": 4752,
+      "filas_validacion": 2375,
+      "positivos_validacion": 534
+    },
+    {
+      "fold": 2,
+      "filas_entrenamiento": 4751,
+      "filas_validacion": 2376,
+      "positivos_validacion": 535
+    },
+    {
+      "fold": 3,
+      "filas_entrenamiento": 4751,
+      "filas_validacion": 2376,
+      "positivos_validacion": 535
+    }
+  ],
+  "caracteristicas": [
+    "loc",
+    "v(g)",
+    "ev(g)",
+    "iv(g)",
+    "n",
+    "v",
+    "l",
+    "d",
+    "i",
+    "e",
+    "b",
+    "t",
+    "lOCode",
+    "lOComment",
+    "lOBlank",
+    "locCodeAndComment",
+    "uniq_Op",
+    "uniq_Opnd",
+    "total_Op",
+    "total_Opnd",
+    "branchCount"
+  ],
+  "variable_objetivo": "defectuoso",
+  "etiquetas": {
+    "0": "sin defecto registrado",
+    "1": "con defecto registrado"
+  },
+  "origen": {
+    "sha256_entrenamiento": "45d3831fcc37c75039623806485517e820ce9dc87307d62a6002c4c5ebae3cd1",
+    "sha256_prueba": "052c48596a76b864a8a2913dfd819eac00151ba54bc7ee951cd4e5138df8fa8c",
+    "filas_entrenamiento": 7127,
+    "filas_prueba": 1781,
+    "clase_positiva_entrenamiento": 1604,
+    "clase_positiva_prueba": 400,
+    "grupos_entre_particiones": 0
+  },
+  "algoritmos": [
+    {
+      "nombre": "Regresion logistica",
+      "parametros": {
+        "C": 1.0,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 3000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "nombre": "Random Forest",
+      "parametros": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced_subsample",
+        "criterion": "gini",
+        "max_depth": 12,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "nombre": "SVM (RBF)",
+      "parametros": {
+        "C": 1.0,
+        "break_ties": false,
+        "cache_size": 200,
+        "class_weight": "balanced",
+        "coef0": 0.0,
+        "decision_function_shape": "ovr",
+        "degree": 3,
+        "gamma": "scale",
+        "kernel": "rbf",
+        "max_iter": -1,
+        "probability": "deprecated",
+        "random_state": 42,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      }
+    }
+  ],
+  "versiones": {
+    "python": "3.12.9",
+    "scikit_learn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.5.2",
+    "joblib": "1.6.0"
+  },
+  "creado_utc": "2026-11-13T18:09:58.589303+00:00",
+  "aviso": "El valor de predict_proba NO se calibró y no debe interpretarse como frecuencia real de defectos. Las decisiones SVM no son probabilidades. Validado inicialmente en NASA PROMISE JM1; no sustituye pruebas de software."
+}

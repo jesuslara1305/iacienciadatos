@@ -1,0 +1,25 @@
+﻿id,titulo,descripcion,origen,etiqueta_referencia_sintetica
+SIM-001,VS Code crashes when starting terminal on Windows 11,The integrated terminal crashes with ERROR 500 after updating to v1.93.0.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-002,Python extension fails to load in editor,After opening main.py the Python extension fails with exception E1204.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-003,Settings file corrupted on restart,The settings.json file is corrupted and the editor cannot start.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-004,Debugger hangs on Linux,The debugger freezes when connecting to Python 3.12 on Linux.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-005,Editor missing CSS syntax highlighting,The editor does not highlight styles.css and shows incorrect tokens.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-006,Notebook kernel timeout in Ubuntu,The kernel times out running notebook.ipynb after v2.1.0.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-007,MacOS sidebar disappears,The sidebar is missing on macOS and the UI crashes after reopen.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-008,Docker connection error,A docker task fails with HTTP 503 when accessing API.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-009,React preview works after update,The React extension is fixed and now works perfectly in the editor.,Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-010,Python linting resolved,Linting in main.py is working again; the issue was resolved.,Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-011,Linux terminal stable after update,"The terminal is stable on Linux after v1.4.3, no error remains.",Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-012,Java compiler issue fixed,The Java compiler failure was fixed and tests passed.,Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-013,Version reporting information,The editor displays Python 3.11 and Windows 10 in the info panel.,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-014,Request for log format change,Please describe how server.log should show timestamps for the API.,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-015,Investigating parser output,We are collecting information about the parser in version 2.0.0.,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-016,Help to reproduce issue,What steps are needed to reproduce the issue with settings.json?,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-017,Error al iniciar el compilador,El compilador falla en Windows 11 con ERROR 404.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-018,La extensión funciona,La extensión de Python está solucionada y funciona correctamente.,Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-019,Dashboard display concern,The UI is slow when drawing large JSON files in the editor.,Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-020,Authentication regression,"Login is broken in Node.js, returning HTTP 401.",Ejemplo simulado para pruebas (NO reporte real),negativo
+SIM-021,Issue resolved with Python update,The crash was fixed after upgrading to Python 3.12.,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-022,Database connection recovered,PostgreSQL connection restored and stable in version 3.1.0.,Ejemplo simulado para pruebas (NO reporte real),positivo
+SIM-023,Collecting debug information,Attached is a description of debugger steps on Ubuntu 22.04.,Ejemplo simulado para pruebas (NO reporte real),neutral
+SIM-024,Server fails in new release,The API cannot connect to MySQL and crashes on HTTP 500.,Ejemplo simulado para pruebas (NO reporte real),negativo
